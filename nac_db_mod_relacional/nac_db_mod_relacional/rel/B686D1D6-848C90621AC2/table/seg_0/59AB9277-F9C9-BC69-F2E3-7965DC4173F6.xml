@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59AB9277-F9C9-BC69-F2E3-7965DC4173F6" name="T_AM_SCN_FUNCIONARIO">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:29:36 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_funcionario" id="35D6F2AC-D95C-7503-0C1C-B7116CA3A5B7">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:31:52 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="844144A3-2153-A074-0F11-8960492E4BCB" referredColumn="85FE5586-FD16-4798-44F8-0FDEB6FC95F1"/>
+</associations>
+</Column>
+<Column name="dt_admissao" id="661171A4-81A2-124A-1CD7-D73DC6CE06F2">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:31:52 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_cargo" id="BC13AF64-BF3F-557A-505D-19BFD60EE532">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:31:52 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C4A633B-A436-769F-D040-8D95B50CAAAA" name="PK_AM_SCN_FUNCIONARIO">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:31:52 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35D6F2AC-D95C-7503-0C1C-B7116CA3A5B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61ED541B-FB09-A1B4-1043-9355EAB566B9" name="FK_AM_SCN_FUNC_PESSOA">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:08:02 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35D6F2AC-D95C-7503-0C1C-B7116CA3A5B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

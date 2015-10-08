@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74A08417-E5DB-89D8-7632-1323D324C9A3" name="T_AM_SCN_PESSOA_FONE">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:39:44 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_pessoa" id="3986AE41-397B-8652-EA58-C638E6B29A5E">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:58:24 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0161F2F-303C-1EBC-454D-8DD8F9E3346E" referredColumn="85FE5586-FD16-4798-44F8-0FDEB6FC95F1"/>
+</associations>
+</Column>
+<Column name="cd_fone" id="7E5EE40B-4459-12FA-DA51-79672ECC8126">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:58:24 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71DD44C0-B4F6-8407-2CE2-93EDC8C9B9CB" referredColumn="ACDA35C3-31E6-9D5D-3CE4-3D18A5412FF9"/>
+</associations>
+</Column>
+<Column name="nr_ramal" id="5941997C-6D11-C533-7D93-F03E5638EF97">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:58:24 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="50C24876-C6A3-C840-A8CD-9B62B720D154" name="PK_AM_SCN_PESSOA_FONE">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 22:00:53 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3986AE41-397B-8652-EA58-C638E6B29A5E"/>
+<colUsage columnID="7E5EE40B-4459-12FA-DA51-79672ECC8126"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="936EE3C3-4A55-B69C-4A86-2208226AAD01" name="FK_AM_SCN_PESSOA_FONE_FONE">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:59:24 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E5EE40B-4459-12FA-DA51-79672ECC8126"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9573EF16-0AB3-E3D9-AF7B-6EB768BC6BC1" name="FK_AM_SCN_PESSOA_FONE_PESSOA">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 22:00:45 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3986AE41-397B-8652-EA58-C638E6B29A5E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

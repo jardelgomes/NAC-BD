@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="09900C9C-02C3-ECC0-E952-AAB8C5A4FB81" name="T_AM_SCN_PAG_CHEQUE" seqName="seg_0"/>
+   <object objectType="Table" objectID="1393CB60-593D-1CEE-9F7B-981720D91479" name="T_AM_SCN_ESTADO" seqName="seg_0"/>
+   <object objectType="Table" objectID="22B72570-4663-224B-3C92-289A5EF3801B" name="T_AM_SCN_TELEFONE" seqName="seg_0"/>
+   <object objectType="Table" objectID="2F85E845-E38C-8ABD-E72E-72C1DA290D3B" name="T_AM_SCN_HOSPEDAGEM" seqName="seg_0"/>
+   <object objectType="Table" objectID="3180B5D3-D2F9-AE74-A90C-8986664B7266" name="T_AM_SCN_PESSOA" seqName="seg_0"/>
+   <object objectType="Table" objectID="32F9812F-C412-9366-A7C9-1DE5A8EB0388" name="T_AM_SCN_TIPO_FONE" seqName="seg_0"/>
+   <object objectType="Table" objectID="3BE02D32-0056-D22D-8086-480ACA36B3E7" name="T_AM_SCN_BAIRRO" seqName="seg_0"/>
+   <object objectType="Table" objectID="552ADE64-CF8A-0EA3-4977-FF08260AFB1F" name="T_AM_SCN_CIDADE" seqName="seg_0"/>
+   <object objectType="Table" objectID="59AB9277-F9C9-BC69-F2E3-7965DC4173F6" name="T_AM_SCN_FUNCIONARIO" seqName="seg_0"/>
+   <object objectType="Table" objectID="5D228EA0-A3CD-11BC-FBA7-45648C94EACF" name="T_AM_SCN_HIST_VALOR" seqName="seg_0"/>
+   <object objectType="Table" objectID="5EB76473-5B92-DFA4-3DC8-6C697BE67B0B" name="T_AM_SCN_LOGRADOURO" seqName="seg_0"/>
+   <object objectType="Table" objectID="699A7243-0323-20DD-A9D1-90DC79633C79" name="T_AM_SCN_TIPO_LOG" seqName="seg_0"/>
+   <object objectType="Table" objectID="74A08417-E5DB-89D8-7632-1323D324C9A3" name="T_AM_SCN_PESSOA_FONE" seqName="seg_0"/>
+   <object objectType="Table" objectID="95F0A954-4E41-8755-9B8C-767B921BF900" name="T_AM_SCN_CLIENTE" seqName="seg_0"/>
+   <object objectType="Table" objectID="A10B43D3-D58A-F9BC-31BB-741FC88AF26A" name="T_AM_SCN_RESERVA" seqName="seg_0"/>
+   <object objectType="Table" objectID="A12E17A8-242E-70C6-A33F-7F8373C534E6" name="T_AM_SCN_PAGAMENTO" seqName="seg_0"/>
+   <object objectType="Table" objectID="A6DE3145-3F17-3679-AD3C-91BFF1A31BCF" name="T_AM_SCN_HIST_PRECO" seqName="seg_0"/>
+   <object objectType="Table" objectID="BB9411D9-7436-D312-04BD-430E73CA601B" name="T_AM_SCN_TIPO_FORMAPAG" seqName="seg_0"/>
+   <object objectType="Table" objectID="BE111BD7-347A-01FC-B211-E0ED1355346B" name="T_AM_SCN_QUARTO" seqName="seg_0"/>
+   <object objectType="Table" objectID="BF53D05A-BC95-B4AA-F51C-8E70D89C2EDA" name="T_AM_SCN_PRODUTO_SERVICO" seqName="seg_0"/>
+   <object objectType="Table" objectID="C05BA21E-AAAE-FB86-69BD-BD248D7AF0A5" name="T_AM_SCN_RESERVA_QUARTO" seqName="seg_0"/>
+   <object objectType="Table" objectID="C92056EC-D985-D5E7-D91D-8BD6C239F5C5" name="T_AM_SCN_CONSUMO" seqName="seg_0"/>
+   <object objectType="Table" objectID="D27D27D7-4B9D-E4DE-2918-1E39E1816F9E" name="T_AM_SCN_PESSOA_ENDE" seqName="seg_0"/>
+   <object objectType="Table" objectID="DC6D0AA3-1EB0-BE71-195D-C4FBEC67FE77" name="T_AM_SCN_REL_CHEQUE" seqName="seg_0"/>
+   <object objectType="Table" objectID="F34F0550-2A99-9E80-A606-02F0EE7DCF59" name="T_AM_SCN_PAGCARTAO" seqName="seg_0"/>
+   <object objectType="Table" objectID="F5598F7B-06C0-AEE2-6984-806F32AAE806" name="T_AM_SCN_TIPO_QUARTO" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="07E881F1-F800-4346-D12A-E4D55C79FA3D" name="FK_AM_SCN_CLIENTE_PESSOA" containerID="95F0A954-4E41-8755-9B8C-767B921BF900" refContainerID="3180B5D3-D2F9-AE74-A90C-8986664B7266" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="0C2FF5ED-B40E-F417-F5AD-88CCBB49137C" name="FK_AM_SCN_CONSUMO_HOSPEDAGEM" containerID="C92056EC-D985-D5E7-D91D-8BD6C239F5C5" refContainerID="2F85E845-E38C-8ABD-E72E-72C1DA290D3B" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="0FB26C4B-BCA0-D7D7-DD2D-6589C396F227" name="FK_AM_SCN_CONSUMO_FUNC" containerID="C92056EC-D985-D5E7-D91D-8BD6C239F5C5" refContainerID="59AB9277-F9C9-BC69-F2E3-7965DC4173F6" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="148F9259-6CA1-FCF9-9D18-67192D38765B" name="FK_AM_SCN_QUARTO_TIPOQUARTO" containerID="BE111BD7-347A-01FC-B211-E0ED1355346B" refContainerID="F5598F7B-06C0-AEE2-6984-806F32AAE806" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1C752622-D296-8BF7-2B86-E9A3ACD152E3" name="FK_AM_SCN_HOSP_RESERVAQTO" containerID="2F85E845-E38C-8ABD-E72E-72C1DA290D3B" refContainerID="C05BA21E-AAAE-FB86-69BD-BD248D7AF0A5" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="1EA5F5AD-0F65-2D63-06D2-8C6E0C02D17D" name="FK_AM_SCN_HOSPEDAGEM_CLIENTE" containerID="2F85E845-E38C-8ABD-E72E-72C1DA290D3B" refContainerID="95F0A954-4E41-8755-9B8C-767B921BF900" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2843A90A-8C52-AF98-80FD-3ACED750F18C" name="FK_AM_SCN_PAGTO_TIPO_FORMAPAG" containerID="A12E17A8-242E-70C6-A33F-7F8373C534E6" refContainerID="BB9411D9-7436-D312-04BD-430E73CA601B" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="3AAB911E-477D-DB3B-0C57-D6F6F3B2A280" name="FK_AM_SCN_PROD_SERV" containerID="A6DE3145-3F17-3679-AD3C-91BFF1A31BCF" refContainerID="BF53D05A-BC95-B4AA-F51C-8E70D89C2EDA" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="3DFDEB0E-F058-4AA2-1C6B-C2FEA65613F1" name="T_AM_SCN_PAG_CHEQUE_T_AM_SCN_PAGAMENTO_FK" containerID="09900C9C-02C3-ECC0-E952-AAB8C5A4FB81" refContainerID="A12E17A8-242E-70C6-A33F-7F8373C534E6" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="4550DC03-C996-F3A1-8D61-DFDEF0609FB9" name="FK_AM_SCN_FONE_TIPO_FONE" containerID="22B72570-4663-224B-3C92-289A5EF3801B" refContainerID="32F9812F-C412-9366-A7C9-1DE5A8EB0388" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5E66F1CC-5440-1904-D133-4330EBF4B5B9" name="FK_AM_SCN_HISTVALOR_TIPOQUARTO" containerID="5D228EA0-A3CD-11BC-FBA7-45648C94EACF" refContainerID="F5598F7B-06C0-AEE2-6984-806F32AAE806" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="642918B8-38C7-3F03-A295-68ABB24ADC3C" name="FK_AM_SCN_HOSPEDAGEM_FUNC" containerID="2F85E845-E38C-8ABD-E72E-72C1DA290D3B" refContainerID="59AB9277-F9C9-BC69-F2E3-7965DC4173F6" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="66FCBFF0-9AB0-A876-11E9-07BE4AD992D0" name="FK_AM_SCN_RESERVA_FUNC" containerID="A10B43D3-D58A-F9BC-31BB-741FC88AF26A" refContainerID="59AB9277-F9C9-BC69-F2E3-7965DC4173F6" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="71DD44C0-B4F6-8407-2CE2-93EDC8C9B9CB" name="FK_AM_SCN_PESSOA_FONE_FONE" containerID="74A08417-E5DB-89D8-7632-1323D324C9A3" refContainerID="22B72570-4663-224B-3C92-289A5EF3801B" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="78D752FE-1F32-9FAF-A556-38D2A073F2F6" name="FK_AM_SCN_PESSOA_ENDE_PESSOA" containerID="D27D27D7-4B9D-E4DE-2918-1E39E1816F9E" refContainerID="3180B5D3-D2F9-AE74-A90C-8986664B7266" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="7FFC7CF6-3222-061C-4C48-0B17EC04E4F4" name="FK_AM_SCN_RESERVAQUARTO_QUARTO" containerID="C05BA21E-AAAE-FB86-69BD-BD248D7AF0A5" refContainerID="BE111BD7-347A-01FC-B211-E0ED1355346B" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="844144A3-2153-A074-0F11-8960492E4BCB" name="FK_AM_SCN_FUNC_PESSOA" containerID="59AB9277-F9C9-BC69-F2E3-7965DC4173F6" refContainerID="3180B5D3-D2F9-AE74-A90C-8986664B7266" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9E8337AA-9F8F-FE08-ECD5-E79110AD0211" name="FK_AM_SCN_PESSOA_ENDE_LOG" containerID="D27D27D7-4B9D-E4DE-2918-1E39E1816F9E" refContainerID="5EB76473-5B92-DFA4-3DC8-6C697BE67B0B" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A7595FC6-11CF-9A52-4350-EDFB800B6185" name="FK_AM_SCN_LOGRADOURO_TIPO_LOG" containerID="5EB76473-5B92-DFA4-3DC8-6C697BE67B0B" refContainerID="699A7243-0323-20DD-A9D1-90DC79633C79" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B74A1B76-5375-0775-515B-B230498031D1" name="FK_AM_SCN_LOGRADOURO_BAIRRO" containerID="5EB76473-5B92-DFA4-3DC8-6C697BE67B0B" refContainerID="3BE02D32-0056-D22D-8086-480ACA36B3E7" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="BA8B1121-1AE8-2F54-1691-6E027597AEA7" name="FK_AM_SCN_CONSUMO_PROD_SERV" containerID="C92056EC-D985-D5E7-D91D-8BD6C239F5C5" refContainerID="BF53D05A-BC95-B4AA-F51C-8E70D89C2EDA" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C45DBED7-62EB-5417-6478-87BBBEB67294" name="FK_AM_SCN_CIDADE_ESTADO" containerID="552ADE64-CF8A-0EA3-4977-FF08260AFB1F" refContainerID="1393CB60-593D-1CEE-9F7B-981720D91479" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E0161F2F-303C-1EBC-454D-8DD8F9E3346E" name="FK_AM_SCN_PESSOA_FONE_PESSOA" containerID="74A08417-E5DB-89D8-7632-1323D324C9A3" refContainerID="3180B5D3-D2F9-AE74-A90C-8986664B7266" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E261630A-D626-F8C7-EDFA-50A30CEA9D59" name="FK_AM_SCN_RELCHEQUE_PAGCHEQUE" containerID="DC6D0AA3-1EB0-BE71-195D-C4FBEC67FE77" refContainerID="09900C9C-02C3-ECC0-E952-AAB8C5A4FB81" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E83354ED-2D60-0FA6-8218-AB241EAFFC90" name="FK_AM_SCN_RESERVA_CLIENTE" containerID="A10B43D3-D58A-F9BC-31BB-741FC88AF26A" refContainerID="95F0A954-4E41-8755-9B8C-767B921BF900" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E9C52BCA-3449-B0DD-4C6F-79933D9487E5" name="FK_AM_SCN_PAGCARTAO_PAGTO" containerID="F34F0550-2A99-9E80-A606-02F0EE7DCF59" refContainerID="A12E17A8-242E-70C6-A33F-7F8373C534E6" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="EBDC9F5C-68E9-50D8-E4DD-EEDA876D459E" name="K_AM_SCN_PAGTO_HOSPEDAGEM" containerID="A12E17A8-242E-70C6-A33F-7F8373C534E6" refContainerID="2F85E845-E38C-8ABD-E72E-72C1DA290D3B" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="EC9D5EFD-9698-7760-33E7-73A7003B287B" name="FK_AM_SCN_BAIRRO_CIDADE" containerID="3BE02D32-0056-D22D-8086-480ACA36B3E7" refContainerID="552ADE64-CF8A-0EA3-4977-FF08260AFB1F" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FAC3A53A-E450-030B-BB74-0689C16E2209" name="FK_AM_SCN_RESERVAQTO_RESERVA" containerID="C05BA21E-AAAE-FB86-69BD-BD248D7AF0A5" refContainerID="A10B43D3-D58A-F9BC-31BB-741FC88AF26A" seqName="seg_0"/>
+   <object objectType="FKArc" objectID="CFC39437-01AB-F681-332E-D32DF17F029A" name="FKArc_1" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

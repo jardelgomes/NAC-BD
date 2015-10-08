@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C05BA21E-AAAE-FB86-69BD-BD248D7AF0A5" name="T_AM_SCN_RESERVA_QUARTO">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:18:21 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<ordsAlias>table_26</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_quarto" id="1D4D786A-AE86-17AA-7351-75358E08F9C0">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:23:10 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7FFC7CF6-3222-061C-4C48-0B17EC04E4F4" referredColumn="C23660C4-0FEB-EAF2-40FD-F825FD0C4169"/>
+</associations>
+</Column>
+<Column name="cd_reserva" id="9B6D2E47-8FE9-BD05-A5B2-818555F80FFC">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:46:58 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FAC3A53A-E450-030B-BB74-0689C16E2209" referredColumn="447617E4-8B53-E839-9FC2-250D5D69A2B0"/>
+</associations>
+</Column>
+<Column name="qt_pessoa_quarto" id="1F9B5938-53BB-E2AE-4ADE-C63C4D36ED47">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 22:15:54 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_observacao" id="29056403-6DD2-A060-92C7-2A2EE6A10553">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 22:19:50 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC086F5B-9DCC-BF00-FE21-61457B5C9CD3" name="PK_AM_SCN_RESERVA_QUARTO">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:24:02 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B6D2E47-8FE9-BD05-A5B2-818555F80FFC"/>
+<colUsage columnID="1D4D786A-AE86-17AA-7351-75358E08F9C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3FA70B7-88E3-0212-5697-B9168402E81C" name="FK_AM_SCN_RESERVAQUARTO_QUARTO">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:23:10 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D4D786A-AE86-17AA-7351-75358E08F9C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38F88682-ED94-8FFF-37A6-335808954EFF" name="FK_AM_SCN_RESERVAQTO_RESERVA">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:46:58 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B6D2E47-8FE9-BD05-A5B2-818555F80FFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

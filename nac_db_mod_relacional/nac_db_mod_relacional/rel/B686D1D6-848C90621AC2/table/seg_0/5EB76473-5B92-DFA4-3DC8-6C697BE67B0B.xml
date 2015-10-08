@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5EB76473-5B92-DFA4-3DC8-6C697BE67B0B" name="T_AM_SCN_LOGRADOURO">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:59:59 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_cep" id="9605BC60-BEFE-9C13-5085-0BCE0CA69AC9">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:02:09 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_bairro" id="0E0E961F-3A5A-21B2-F120-04B232181D01">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:02:09 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B74A1B76-5375-0775-515B-B230498031D1" referredColumn="BF5635D4-20E4-9333-E612-F9BBA2B91565"/>
+</associations>
+</Column>
+<Column name="ds_descricao" id="8AAA2EBC-4769-566D-1178-05D357636865">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:02:09 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_tipo_logradouro" id="66BF156D-E0EF-A21A-41EA-5B3DF1D4C782">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:02:09 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7595FC6-11CF-9A52-4350-EDFB800B6185" referredColumn="E999E70F-40DE-7C1F-CD50-87618A1116A5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6AC6B89-54CD-BA23-FFEE-FA51158F7155" name="PK_AM_SCN_LOGRADOURO">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:02:09 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9605BC60-BEFE-9C13-5085-0BCE0CA69AC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81EE30E5-65AF-39E0-6BFE-D458BC47FBAB" name="FK_AM_SCN_LOGRADOURO_TIPO_LOG">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 22:02:45 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66BF156D-E0EF-A21A-41EA-5B3DF1D4C782"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE308DBE-21D1-FF77-5165-FBF8B8BE85EB" name="FK_AM_SCN_LOGRADOURO_BAIRRO">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 22:07:56 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E0E961F-3A5A-21B2-F120-04B232181D01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

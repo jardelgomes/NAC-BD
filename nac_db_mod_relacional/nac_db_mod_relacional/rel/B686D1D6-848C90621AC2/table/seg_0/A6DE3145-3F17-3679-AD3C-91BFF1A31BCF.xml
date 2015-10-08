@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6DE3145-3F17-3679-AD3C-91BFF1A31BCF" name="T_AM_SCN_HIST_PRECO">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:44:07 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_hist_preco" id="C2BA738A-8EAC-A29F-D84B-3347DE0E25AC">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:49:06 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_tipo_servico" id="2640BCE4-0A4F-7BB3-F185-29F96764D1B4">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:49:06 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3AAB911E-477D-DB3B-0C57-D6F6F3B2A280" referredColumn="89154B5C-6BB6-17EC-F520-BE743E51C6FB"/>
+</associations>
+</Column>
+<Column name="dt_validade" id="F669CB30-49AB-EF44-8A98-39274B05E97B">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:49:06 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_preco" id="EBB3E964-9696-BC55-40E5-49FCFAF80DAA">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 22:40:18 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BCFD1FCD-1A2A-3CCA-4BF5-F1928EFED896" name="PK_AM_SCN_HIST_PRECO">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:49:06 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2BA738A-8EAC-A29F-D84B-3347DE0E25AC"/>
+<colUsage columnID="2640BCE4-0A4F-7BB3-F185-29F96764D1B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FDDCB93-2DEC-2717-9DF5-54C1A132C026" name="FK_AM_SCN_PROD_SERV">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:58:01 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2640BCE4-0A4F-7BB3-F185-29F96764D1B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

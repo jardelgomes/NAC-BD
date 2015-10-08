@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3180B5D3-D2F9-AE74-A90C-8986664B7266" name="T_AM_SCN_PESSOA">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:32:02 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_pessoa" id="85FE5586-FD16-4798-44F8-0FDEB6FC95F1">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:33:10 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_pessoa" id="A1EC9DBE-E9D2-27B0-CCDA-4B1F742A380B">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:33:10 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F640DC08-1C27-1A3C-EA95-609CA2B3FE6E" name="PK_AM_SCN_PESSOA">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:33:10 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85FE5586-FD16-4798-44F8-0FDEB6FC95F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

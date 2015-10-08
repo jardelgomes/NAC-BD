@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3BE02D32-0056-D22D-8086-480ACA36B3E7" name="T_AM_SCN_BAIRRO">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:03:15 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_bairro" id="BF5635D4-20E4-9333-E612-F9BBA2B91565">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:04:08 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_cidade" id="0A353223-43D8-BF69-42EC-CDE4EC437916">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:04:08 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC9D5EFD-9698-7760-33E7-73A7003B287B" referredColumn="3CF45183-AB98-32D3-2443-DBBAE2CAE8A9"/>
+</associations>
+</Column>
+<Column name="nm_bairro" id="D664CC62-92D7-F8A1-E23D-0A0F35BCAC3F">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:04:08 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90EDFCBA-0CEB-5E8C-6297-57CC66E05B37" name="PK_AM_SCN_BAIRRO">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:04:08 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF5635D4-20E4-9333-E612-F9BBA2B91565"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89117961-C605-163C-5E41-42133EC491F1" name="FK_AM_SCN_BAIRRO_CIDADE">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 22:03:22 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A353223-43D8-BF69-42EC-CDE4EC437916"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

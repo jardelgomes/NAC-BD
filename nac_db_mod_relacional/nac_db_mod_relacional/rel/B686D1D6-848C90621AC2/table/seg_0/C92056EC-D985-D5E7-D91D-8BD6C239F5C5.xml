@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C92056EC-D985-D5E7-D91D-8BD6C239F5C5" name="T_AM_SCN_CONSUMO">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:33:58 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_consumo" id="492DA624-18DC-F1C9-82DB-3F70ED80A08D">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:37:19 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_hospedagem" id="BB3291D7-5525-BB77-5656-696758668B9D">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:37:19 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C2FF5ED-B40E-F417-F5AD-88CCBB49137C" referredColumn="F329063B-7139-CB29-9B56-DB6FC4CA9E44"/>
+</associations>
+</Column>
+<Column name="cd_tipo_servico" id="AE860C82-E35D-44D8-1A36-C661ED2B99DC">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:37:19 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BA8B1121-1AE8-2F54-1691-6E027597AEA7" referredColumn="89154B5C-6BB6-17EC-F520-BE743E51C6FB"/>
+</associations>
+</Column>
+<Column name="cd_pessoa" id="7E6DF155-2A4C-402C-0E4D-A3B51FF120B5">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:37:19 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_consumo" id="582F966B-C5F4-1DCB-0DB7-8E14EDC8E049">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:37:19 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_consumo" id="00196312-0245-2F61-012C-707A487F0BB2">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:37:19 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_AM_SCN_FUNCIONARIO_cd_funcionario" id="1115D602-B12E-5B03-569E-B2D861E930C2">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:56:08 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FB26C4B-BCA0-D7D7-DD2D-6589C396F227" referredColumn="35D6F2AC-D95C-7503-0C1C-B7116CA3A5B7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A4240D0-CF43-4B2D-F4A3-5822EAA60AE1" name="T_AM_SCN_CONSUMO_PK">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:37:19 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="492DA624-18DC-F1C9-82DB-3F70ED80A08D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="494B641C-EFE9-362D-C9B6-E393130F8A94" name="FK_AM_SCN_CONSUMO_HOSPEDAGEM">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:55:54 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB3291D7-5525-BB77-5656-696758668B9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A25F5901-81DF-7076-CCF7-78987273EE2A" name="FK_AM_SCN_CONSUMO_FUNC">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:56:08 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1115D602-B12E-5B03-569E-B2D861E930C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7AC748F-0313-00C7-9270-3D005B4DFF2F" name="FK_AM_SCN_CONSUMO_PROD_SERV">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:57:46 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE860C82-E35D-44D8-1A36-C661ED2B99DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

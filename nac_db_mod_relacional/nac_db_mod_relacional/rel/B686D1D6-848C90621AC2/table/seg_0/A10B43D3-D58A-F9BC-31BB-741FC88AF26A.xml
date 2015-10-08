@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A10B43D3-D58A-F9BC-31BB-741FC88AF26A" name="T_AM_SCN_RESERVA">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 02:16:29 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_reserva" id="447617E4-8B53-E839-9FC2-250D5D69A2B0">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:18:50 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_solicitacao" id="F495483E-6572-3E7C-848B-ED39C37C8436">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:18:50 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inicio_reserva" id="83702AB1-81A7-93FD-A6F4-4B43598006D5">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:18:50 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_final_reserva" id="592DD3FB-66A4-F829-47A4-34C4632E3DF0">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:18:50 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_adulto" id="FCD158DE-F9A4-B7BF-2479-D8505CF761B8">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:18:50 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_crianca" id="671BEB78-94C4-1895-4547-ACF59F4A24C4">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:18:50 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_cliente" id="9EA7D63C-60FB-B54A-9507-63ABD1EFB22F">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:13:15 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E83354ED-2D60-0FA6-8218-AB241EAFFC90" referredColumn="36B4AF1F-0C10-D011-278D-48A8CBEC7F6F"/>
+</associations>
+</Column>
+<Column name="cd_funcionario" id="851B1125-505B-D6B0-BACC-4BD9986EF361">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:14:52 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66FCBFF0-9AB0-A876-11E9-07BE4AD992D0" referredColumn="35D6F2AC-D95C-7503-0C1C-B7116CA3A5B7"/>
+</associations>
+</Column>
+<Column name="st_reserva" id="B7FB4A2F-7D81-F9AF-E7E8-BC3D417E263C">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 22:18:28 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="741F977C-C922-92DC-D4F0-4F2E67D97053" name="PK_AM_SCN_RESERVA">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:18:50 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="447617E4-8B53-E839-9FC2-250D5D69A2B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E98DF425-8571-D4D6-75FF-38A424F65080" name="FK_AM_SCN_RESERVA_CLIENTE">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:13:15 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EA7D63C-60FB-B54A-9507-63ABD1EFB22F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="886828FF-6CAE-71CC-30E6-0A04D95960DE" name="FK_AM_SCN_RESERVA_FUNC">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:14:52 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="851B1125-505B-D6B0-BACC-4BD9986EF361"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

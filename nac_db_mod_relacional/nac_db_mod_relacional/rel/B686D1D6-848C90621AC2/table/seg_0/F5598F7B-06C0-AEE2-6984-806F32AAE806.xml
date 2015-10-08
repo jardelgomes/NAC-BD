@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5598F7B-06C0-AEE2-6984-806F32AAE806" name="T_AM_SCN_TIPO_QUARTO">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:13:23 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_tipo_quarto" id="EF688304-6D1A-7832-E94E-934237DCBEF3">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:14:31 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tipo_quarto" id="91FFB694-2F04-A8BB-AABF-0E1CDF20EA19">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:14:31 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_observacao" id="3341ECFB-7DAA-086D-0332-E3AA53FA22CD">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:14:31 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BFF7E94A-F522-A01D-4C7E-0781C1F6CACC" name="PK_AM_SCN_TIPO_QUARTO">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:14:31 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF688304-6D1A-7832-E94E-934237DCBEF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

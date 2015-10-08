@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A7595FC6-11CF-9A52-4350-EDFB800B6185" containerWithKeyObject="5EB76473-5B92-DFA4-3DC8-6C697BE67B0B" localFKIndex="81EE30E5-65AF-39E0-6BFE-D458BC47FBAB" name="FK_AM_SCN_LOGRADOURO_TIPO_LOG">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 22:02:45 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>699A7243-0323-20DD-A9D1-90DC79633C79</referredTableID>
+<keyObject>1788575D-D7E3-4E9E-DE24-A619098C983B</keyObject>
+<referredKeyID>1788575D-D7E3-4E9E-DE24-A619098C983B</referredKeyID>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

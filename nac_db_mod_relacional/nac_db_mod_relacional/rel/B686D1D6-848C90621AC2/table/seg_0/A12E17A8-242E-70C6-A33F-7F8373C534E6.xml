@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A12E17A8-242E-70C6-A33F-7F8373C534E6" name="T_AM_SCN_PAGAMENTO">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:19:35 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_hospedagem" id="D9DC5C61-FDF6-A40D-A2EA-DF48A6C03529">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:22:50 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBDC9F5C-68E9-50D8-E4DD-EEDA876D459E" referredColumn="F329063B-7139-CB29-9B56-DB6FC4CA9E44"/>
+</associations>
+</Column>
+<Column name="dt_pagamento" id="519CE1FE-98BC-8182-D1B4-20F48F57F5A3">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:22:50 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_pagamento" id="44186A2B-00F2-6CAA-0072-E382C70D6DE7">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:22:50 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_tipo_formapag" id="1C4ADC5A-2FE0-4D87-02C3-A5B8EADFF907">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:51:52 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2843A90A-8C52-AF98-80FD-3ACED750F18C" referredColumn="C57D8FA2-7C2B-C068-A77B-5A8E01148249"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="402EAC2F-980A-F310-E420-997513767DBF" name="PK_AM_SCN_PAGAMENTO">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:22:50 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9DC5C61-FDF6-A40D-A2EA-DF48A6C03529"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88822339-AF2E-18D4-A597-DDAC90E51B29" name="K_AM_SCN_PAGTO_HOSPEDAGEM">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:51:38 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9DC5C61-FDF6-A40D-A2EA-DF48A6C03529"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6EEC2F6-C9C2-28D4-2F8E-75557AE1D394" name="FK_AM_SCN_PAGTO_TIPO_FORMAPAG">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:51:52 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C4ADC5A-2FE0-4D87-02C3-A5B8EADFF907"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

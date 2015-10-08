@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3DFDEB0E-F058-4AA2-1C6B-C2FEA65613F1" containerWithKeyObject="09900C9C-02C3-ECC0-E952-AAB8C5A4FB81" localFKIndex="0D5016FD-4500-1C18-1D3A-C9A7FE0192B4" name="T_AM_SCN_PAG_CHEQUE_T_AM_SCN_PAGAMENTO_FK">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 23:14:47 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A12E17A8-242E-70C6-A33F-7F8373C534E6</referredTableID>
+<keyObject>402EAC2F-980A-F310-E420-997513767DBF</keyObject>
+<referredKeyID>402EAC2F-980A-F310-E420-997513767DBF</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

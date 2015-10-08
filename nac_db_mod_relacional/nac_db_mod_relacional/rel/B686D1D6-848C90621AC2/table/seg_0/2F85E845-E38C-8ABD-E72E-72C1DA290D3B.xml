@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2F85E845-E38C-8ABD-E72E-72C1DA290D3B" name="T_AM_SCN_HOSPEDAGEM">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:08:34 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_hospedagem" id="F329063B-7139-CB29-9B56-DB6FC4CA9E44">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:11:20 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_entrada" id="10D81641-E319-5652-2871-8DDFC0B24B84">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:11:20 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_saida" id="3041DD35-FFCB-D5DE-E4AC-38A03D931C8E">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:11:20 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vc_perc_desconto" id="152C53A6-2926-FC84-C5FF-F40A7727D1C7">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:11:20 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_funcionario" id="A24FC172-BFD3-4F01-33E7-3876EA6F395E">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:50:14 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="642918B8-38C7-3F03-A295-68ABB24ADC3C" referredColumn="35D6F2AC-D95C-7503-0C1C-B7116CA3A5B7"/>
+</associations>
+</Column>
+<Column name="cd_reserva" id="66F981DC-834E-E901-80E3-725F1FC34EFB">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 22:22:41 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C752622-D296-8BF7-2B86-E9A3ACD152E3" referredColumn="9B6D2E47-8FE9-BD05-A5B2-818555F80FFC"/>
+</associations>
+</Column>
+<Column name="nr_quarto" id="AB57398F-EF06-447B-52D7-B25DAF466B99">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 22:22:41 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C752622-D296-8BF7-2B86-E9A3ACD152E3" referredColumn="1D4D786A-AE86-17AA-7351-75358E08F9C0"/>
+</associations>
+</Column>
+<Column name="cd_cliente" id="E5BF7BC7-9005-9962-54DE-C64FE3A783B7">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 22:27:26 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EA5F5AD-0F65-2D63-06D2-8C6E0C02D17D" referredColumn="36B4AF1F-0C10-D011-278D-48A8CBEC7F6F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79B93D30-B971-695D-BC17-3746EBB1C6BC" name="PK_AM_SCN_HOSPEDAGEM">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:11:20 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F329063B-7139-CB29-9B56-DB6FC4CA9E44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59DB45BB-C3F6-6103-591B-53CDD46B4F75" name="FK_AM_SCN_HOSPEDAGEM_FUNC">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:50:14 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A24FC172-BFD3-4F01-33E7-3876EA6F395E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05756430-86D1-A026-6149-12FE3E75D89E" name="FK_AM_SCN_HOSP_RESERVAQTO">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 22:22:41 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66F981DC-834E-E901-80E3-725F1FC34EFB"/>
+<colUsage columnID="AB57398F-EF06-447B-52D7-B25DAF466B99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A100A1CE-63EE-F883-EB79-7A9377D8D0FE" name="FK_AM_SCN_HOSPEDAGEM_CLIENTE">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 22:27:26 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5BF7BC7-9005-9962-54DE-C64FE3A783B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D27D27D7-4B9D-E4DE-2918-1E39E1816F9E" name="T_AM_SCN_PESSOA_ENDE">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:37:27 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_pessoa_ende" id="31A64A85-6C10-AE74-03D4-4B597DFDE039">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:39:34 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cep" id="A3486B25-E350-B31C-F626-90427A85C8B3">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:39:34 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E8337AA-9F8F-FE08-ECD5-E79110AD0211" referredColumn="9605BC60-BEFE-9C13-5085-0BCE0CA69AC9"/>
+</associations>
+</Column>
+<Column name="cd_pessoa" id="AE29DCE2-6D47-9D45-CCAA-AFB2709A3D17">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:39:34 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78D752FE-1F32-9FAF-A556-38D2A073F2F6" referredColumn="85FE5586-FD16-4798-44F8-0FDEB6FC95F1"/>
+</associations>
+</Column>
+<Column name="nr_logradouro" id="8FDE718F-AB28-BCB0-089E-5AC3944F9445">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:39:34 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_complemento" id="EA57E38B-3AF2-CE87-F44B-D564F66E856E">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:39:34 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5D98D9B-A613-87A7-ACB7-74DF4E1B150B" name="PK_AM_SCN_PESSOA_ENDE">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:39:34 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31A64A85-6C10-AE74-03D4-4B597DFDE039"/>
+<colUsage columnID="A3486B25-E350-B31C-F626-90427A85C8B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2C96D60-80C3-99DA-A04F-E311BF7DB6A9" name="FK_AM_SCN_PESSOA_ENDE_PESSOA">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 22:01:43 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE29DCE2-6D47-9D45-CCAA-AFB2709A3D17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="978903DA-0946-0DCB-1789-D2C95AE059F7" name="FK_AM_SCN_PESSOA_ENDE_LOG">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 22:02:08 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3486B25-E350-B31C-F626-90427A85C8B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="CFC39437-01AB-F681-332E-D32DF17F029A" name="FKArc_1">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:14:46 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>3180B5D3-D2F9-AE74-A90C-8986664B7266</table>
+<fkeys>
+<fkeyID>07E881F1-F800-4346-D12A-E4D55C79FA3D</fkeyID>
+<fkeyID>844144A3-2153-A074-0F11-8960492E4BCB</fkeyID>
+</fkeys>
+</FKArc>

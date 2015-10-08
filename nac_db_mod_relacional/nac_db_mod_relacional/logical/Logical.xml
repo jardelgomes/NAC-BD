@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D4D1E6A2-2306-50C5-5575-7B41E667DFF1" mainViewID="F47B2EAA-6E00-9D49-7E67-0B3F1283B4BE">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 02:16:03 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

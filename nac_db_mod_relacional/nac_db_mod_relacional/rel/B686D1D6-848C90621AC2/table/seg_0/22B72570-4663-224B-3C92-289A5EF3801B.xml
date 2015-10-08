@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22B72570-4663-224B-3C92-289A5EF3801B" name="T_AM_SCN_TELEFONE">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:58:30 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_fone" id="ACDA35C3-31E6-9D5D-3CE4-3D18A5412FF9">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:59:47 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_ddd" id="D6379A59-C236-C3AA-7456-B7BCFFBE34FA">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:59:47 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="D361BE28-A160-4F5C-F477-23F22D1C887D">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:59:47 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_tipo_fone" id="19678786-353F-E537-4C0F-59622ED21598">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:59:48 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4550DC03-C996-F3A1-8D61-DFDEF0609FB9" referredColumn="D660452D-DEF7-4CC8-C432-D64018DD8F8E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9181AE6B-3F64-BF22-D70E-C64E2CC8BD5E" name="PK_AM_SCN_TELEFONE">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:59:47 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACDA35C3-31E6-9D5D-3CE4-3D18A5412FF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63C4636C-6692-EFAD-8C2F-99F1843CC73C" name="FK_AM_SCN_FONE_TIPO_FONE">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:59:48 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19678786-353F-E537-4C0F-59622ED21598"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

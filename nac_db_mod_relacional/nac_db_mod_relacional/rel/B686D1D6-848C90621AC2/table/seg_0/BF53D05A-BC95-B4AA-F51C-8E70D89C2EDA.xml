@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF53D05A-BC95-B4AA-F51C-8E70D89C2EDA" name="T_AM_SCN_PRODUTO_SERVICO">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:42:42 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_tipo_servico" id="89154B5C-6BB6-17EC-F520-BE743E51C6FB">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:43:57 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_servico" id="90A42A64-BFED-678B-4B91-3355E43F5C0A">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:43:57 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_tipo" id="E15B2863-A57B-1EEC-4A26-87FE99B2415E">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:43:57 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF6D4D02-3B8B-E468-B5E1-3042F3D81569" name="PK_AM_SCN_PRODUTO_SERVICO">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:43:57 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89154B5C-6BB6-17EC-F520-BE743E51C6FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

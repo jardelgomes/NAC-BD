@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95F0A954-4E41-8755-9B8C-767B921BF900" name="T_AM_SCN_CLIENTE">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:25:45 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cliente" id="36B4AF1F-0C10-D011-278D-48A8CBEC7F6F">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:29:17 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07E881F1-F800-4346-D12A-E4D55C79FA3D" referredColumn="85FE5586-FD16-4798-44F8-0FDEB6FC95F1"/>
+</associations>
+</Column>
+<Column name="nr_cpf" id="75B94C64-6EBF-604D-7A5B-56A18283D1FA">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:29:17 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_rg" id="4A72127C-71A4-808E-463A-BBE10567E9F2">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:29:17 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="7B772672-E5D7-10A4-8F91-77F5C6B26D21">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:29:17 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_quarto_preferido" id="43487979-D5EF-AB2C-ABA5-409A298D24A7">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:29:17 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_email" id="2EE85A95-A1CE-DAB0-A5D5-7A12796071D8">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:29:17 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_senha" id="E0D3C8C5-4CD1-D510-724A-47819326EEAA">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:29:17 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA4DB0B6-5AE1-CDB5-6A6D-9D4DDE6E0FCB" name="T_AM_SCN_CLIENTE">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 16:29:17 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36B4AF1F-0C10-D011-278D-48A8CBEC7F6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99745A8A-6DFD-266B-71AC-847BDE700FCA" name="FK_AM_SCN_CLIENTE_PESSOA">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:07:19 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36B4AF1F-0C10-D011-278D-48A8CBEC7F6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

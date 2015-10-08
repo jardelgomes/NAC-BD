@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F34F0550-2A99-9E80-A606-02F0EE7DCF59" name="T_AM_SCN_PAGCARTAO">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:25:41 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_pagto_cartao" id="078CD773-8707-EA82-9442-FBCFED19BC96">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:28:01 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_hospedagem" id="629F4026-C214-1AC0-D2C6-5CA2CAE510D2">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:28:01 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9C52BCA-3449-B0DD-4C6F-79933D9487E5" referredColumn="D9DC5C61-FDF6-A40D-A2EA-DF48A6C03529"/>
+</associations>
+</Column>
+<Column name="qt_parcela" id="DF0B3B51-A68A-BFE9-114B-7DE259844A6A">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:28:01 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="75F2E027-E58E-8031-4EB1-7A4595FE2E9A" name="PK_AM_SCN_PAGCARTAO">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:28:01 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="078CD773-8707-EA82-9442-FBCFED19BC96"/>
+<colUsage columnID="629F4026-C214-1AC0-D2C6-5CA2CAE510D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6D792B0-6661-E8BE-CD65-A492DD2053F0" name="FK_AM_SCN_PAGCARTAO_PAGTO">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:52:46 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="629F4026-C214-1AC0-D2C6-5CA2CAE510D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

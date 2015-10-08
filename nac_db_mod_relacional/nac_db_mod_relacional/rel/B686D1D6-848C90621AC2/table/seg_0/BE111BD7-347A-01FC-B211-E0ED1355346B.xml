@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE111BD7-347A-01FC-B211-E0ED1355346B" name="T_AM_SCN_QUARTO">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:11:46 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_quarto" id="C23660C4-0FEB-EAF2-40FD-F825FD0C4169">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:13:12 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_tipo_quarto" id="1B1C21B0-FE56-8E12-2282-1DBB913A5F22">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:13:12 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="148F9259-6CA1-FCF9-9D18-67192D38765B" referredColumn="EF688304-6D1A-7832-E94E-934237DCBEF3"/>
+</associations>
+</Column>
+<Column name="nr_andar" id="A8C668D8-D2C4-837E-2CAA-567281FD8B49">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:13:12 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_capacidade" id="BCC9B014-67D2-BD75-039E-5035EEA77BED">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:13:12 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CBE06766-DD77-8043-5316-050FE666890A" name="PK_AM_SCN_QUARTO">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:13:12 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C23660C4-0FEB-EAF2-40FD-F825FD0C4169"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA128667-9231-AE23-9D72-45D8AB8ABAC1" name="FK_AM_SCN_QUARTO_TIPOQUARTO">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 21:48:36 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B1C21B0-FE56-8E12-2282-1DBB913A5F22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

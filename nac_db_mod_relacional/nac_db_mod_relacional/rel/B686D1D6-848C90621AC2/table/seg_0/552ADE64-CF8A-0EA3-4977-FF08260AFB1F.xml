@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="552ADE64-CF8A-0EA3-4977-FF08260AFB1F" name="T_AM_SCN_CIDADE">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:04:19 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cidade" id="3CF45183-AB98-32D3-2443-DBBAE2CAE8A9">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:05:13 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cidade" id="263BA877-7833-A397-B787-6EA790CDB3F1">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:05:13 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_estado1" id="7E34BB8D-F488-63F9-0A40-03759774EA20">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 22:04:53 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C45DBED7-62EB-5417-6478-87BBBEB67294" referredColumn="64F4B63B-4957-F794-3571-A7128A6B77A2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4486F95-FF1D-D0EB-DE82-3E1DED38EF8D" name="PK_AM_SCN_CIDADE">
+<createdBy>nana</createdBy>
+<createdTime>2015-09-21 17:05:13 UTC</createdTime>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CF45183-AB98-32D3-2443-DBBAE2CAE8A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86A45322-1B67-CA74-46A6-DC7BD2312FB8" name="FK_AM_SCN_CIDADE_ESTADO">
+<createdBy>Jardel</createdBy>
+<createdTime>2015-09-21 22:04:53 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>nac_db_mod_relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E34BB8D-F488-63F9-0A40-03759774EA20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
